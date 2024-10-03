@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="button_simple_calc_text">Простой</string>
+    <string name="button_advanced_calc_text">Расширенный</string>
+    <string name="result_text">0</string>
+    <string name="button_back_description">Назад</string>
+    <string name="button_exit_text">Выйти</string>
+
+    <string name="choose_operator_message">Выберите оператор</string>
+    <string name="input_value_message">Введите значение</string>
+    <string name="factorial_integer_message">Введите целочисленное значение</string>
+    <string name="negative_square_root_message">Нельзя вычислить корень из отрицательного числа</string>
+    <string name="confirm_exit_message">Нажмите еще раз, чтобы выйти</string>
+    <string name="yes_message">Да</string>
+    <string name="no_message">Нет</string>
+
+    <string name="button_0_text">0</string>
+    <string name="button_1_text">1</string>
+    <string name="button_2_text">2</string>
+    <string name="button_3_text">3</string>
+    <string name="button_4_text">4</string>
+    <string name="button_5_text">5</string>
+    <string name="button_6_text">6</string>
+    <string name="button_7_text">7</string>
+    <string name="button_8_text">8</string>
+    <string name="button_9_text">9</string>
+
+    <string name="button_clear_text">C</string>
+    <string name="button_advanced_text">A</string>
+    <string name="button_simple_text">S</string>
+    <string name="button_decimal_text">.</string>
+    <string name="button_erase_text">&#9003;</string>
+    <string name="button_percentage_text">%</string>
+    <string name="button_equal_text">=</string>
+    <string name="button_plus_text">+</string>
+    <string name="button_minus_text">-</string>
+    <string name="button_multiply_text">*</string>
+    <string name="button_divide_text">/</string>
+
+    <string name="button_e_text">&#101;</string>
+    <string name="button_pi_text">&#960;</string>
+    <string name="button_inverse_text">1/x</string>
+    <string name="button_factorial_text">x!</string>
+    <string name="button_x_pow_y_text">x^y</string>
+    <string name="button_square_root_text">√</string>
+    <string name="button_lg_text">lg</string>
+    <string name="button_ln_text">ln</string>
+    <string name="button_abs_text">|x|</string>
+    <string name="button_exp_text">exp</string>
+</resources>

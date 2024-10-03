@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/wallpaper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_height="400dp"
+        android:src="@drawable/calculator"/>
+
+    <Button
+        android:id="@+id/btnSimpleCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="20dp"
+        android:onClick="onSimpleCalcButtonClick"
+        android:text="@string/button_simple_calc_text"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/button"
+        android:textSize="24sp"
+        android:textColor="@color/text"
+        android:paddingVertical="15dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnAdvancedCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/accent"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="20dp"
+        android:onClick="onAdvancedCalcButtonClick"
+        android:text="@string/button_advanced_calc_text"
+        android:textSize="24sp"
+        android:textColor="@color/text"
+        android:paddingVertical="15dp"
+        android:gravity="center"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_exit_text"
+            android:textAllCaps="false"
+            android:onClick="onExitButtonClick"
+            android:layout_margin="20dp"
+            android:textColor="@color/text"
+            android:textSize="24sp"
+            android:backgroundTint="@color/button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
